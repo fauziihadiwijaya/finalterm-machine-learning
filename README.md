@@ -45,7 +45,7 @@ Membangun model **Neural Network** untuk memprediksi probabilitas sebuah transak
 **Target**: `isFraud` (0 = normal, 1 = fraud)
 
 **Pipeline:**
-1. EDA — analisis distribusi kelas (class imbalance ~3.5% fraud) dan missing values
+1. EDA — analisis distribusi kelas (class imbalance ~2.56% fraud) dan missing values
 2. Preprocessing — drop kolom missing >80%, label encoding, imputasi median, standard scaling
 3. Feature engineering — log transform amount, ekstraksi jam & hari transaksi
 4. Handle imbalance — **SMOTE** (oversampling kelas minoritas)
