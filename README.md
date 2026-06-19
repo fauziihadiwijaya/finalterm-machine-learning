@@ -80,9 +80,9 @@ Membangun model **Neural Network** untuk memprediksi **tahun rilis lagu** berdas
 
 | Model | Arsitektur | AUC-ROC | F1-Score* | Accuracy* |
 |---|---|---|---|---|
-| Simple MLP | 2 hidden layers | 0.8739 | — | — |
-| Deep MLP | 3+ hidden layers | 0.8754 | — | — |
-| **Optuna MLP** | Tuned (15 trials) | 0.8547 | — | — |
+| Simple MLP | 2 hidden layers | 0.8739 | 0.104548	 | 0.61115 |
+| Deep MLP | 3+ hidden layers | 0.8754 | 0.059179 | 0.19875 |
+| **Optuna MLP** | Tuned (15 trials) | 0.8547 | 0.071960 | 0.37580 |
 
 > *F1-Score dan Accuracy dievaluasi ulang menggunakan **threshold optimal** (hasil `precision_recall_curve`), bukan threshold default 0.5, karena dataset sangat imbalanced.
 
