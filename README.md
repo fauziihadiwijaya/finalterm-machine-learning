@@ -16,7 +16,7 @@
 
 ## 📌 Tujuan Repository
 
-Repository ini dibuat sebagai pemenuhan tugas **UAS (Final Exam) — Deep Learning Class**, dengan tujuan menerapkan pipeline machine learning end-to-end menggunakan **Neural Network (TensorFlow/Keras)** pada dua jenis permasalahan yang berbeda: **klasifikasi** (fraud detection) dan **regresi** (prediksi tahun rilis lagu).
+Repository ini dibuat sebagai pemenuhan tugas **UAS (Final Exam) — Machine Learning Class**, dengan tujuan menerapkan pipeline machine learning end-to-end menggunakan **Neural Network (TensorFlow/Keras)** pada dua jenis permasalahan yang berbeda: **klasifikasi** (fraud detection) dan **regresi** (prediksi tahun rilis lagu).
 
 Setiap notebook mendemonstrasikan siklus penuh data science: mulai dari eksplorasi data, preprocessing, desain arsitektur neural network, hyperparameter tuning otomatis, hingga evaluasi dan interpretasi model.
 
